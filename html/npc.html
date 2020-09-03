@@ -6,17 +6,101 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../other/main.css'>
-    <script src='main.js'></script>
+    <script src='../javascripts/character.js'></script>
 </head>
 <body>
     <div id='menu1'>
         <ul>
             <li><a href="../index.html">   Strona Główna   </a></li>
-            <li><a href="mechanika.html">   Mechanika   </a></li>
+            <li class="mech-drop">
+                <a href="mechanika.html">   Mechanika   </a>
+                <div class="dropdown-nav">
+                    <a href="makebg.html">Tworzenie Postaci</a>
+                    <a href="rzuty.html">Rzuty</a>
+                    <a href="stres.html">Stres</a>
+                    <a href="miedzy.html">Pomiędzy sesjami</a>
+                </div>
+            </li>
             <li><a href="kronika.html">   Kronika   </a></li>
-            <li><a href="npc.html">   Ważne Postacie   </a></li>
+            <li><a class="active" href="npc.html">   Ważne Postacie   </a></li>
             <li><a href="bg.html">   Bohaterowie Graczy   </a></li>
         </ul>
+    </div>
+
+    <div id="menu2">
+        <ul>
+            <li><a href="#ch1">Theos Richter</a></li>
+            <li><a href="#ch2">Eryk Asher</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <div class="characters" id="mainchar">
+            <div class="npc" id="ch1">
+                <div class="column">
+                    <h2>Książę Theos Richter</h2>
+                    <h3>Rola</h3>
+                    <p>
+                        Głowa rodu Richter <br>
+                        Książę Nildu <br>
+                        Gubernator Nildu <br>
+                    </p>
+                    <h3>Wygląd</h3>
+                    <p>
+                        Długie, zaczesane do tyłu czarne włosy, sięgające za ramiona, ciemna broda, zielone oczy. Najczęściej ubrany w ciemnogranatowy kordyjski mundur oficerski, zaś na oficjalne okazje w godne księcia szaty zielono-złotych barwach.
+                    </p>
+                    <h3>Relacje</h3>
+                    <p>
+                        Należy do Wielkiej Rady (przewodniczący) <br>
+                        Brat: Oberinspektor Baltasar Richter <br>
+                        Ma dwójkę dzieci: <br>
+                        - Rudolf Richter <br>
+                        - Ezekiel Richter <br>
+                    </p>
+                    <h3>Plotki</h3>
+                    <p>
+                        Od nastania zimy Księcia nie widziano na dworze. Mówi się że jest na polowaniu, że leży złożony chorobą lub że spędza czas z kochanką.
+                    </p>
+                    <h3>Inne</h3>
+                    <p>
+                    
+                    </p>
+                </div>
+                <div class="column">
+                    <img width=420px height=650px src="../files/TR.png">
+                </div>
+            </div>
+            <div class="column" id="ch2">
+                <h2>Książę Eryk Asher</h2>
+                <h3>Rola</h3>
+                <p>
+                    Głowa Rodu Asher
+                    Książę Ahsenwald
+                </p>
+                <h3>Wygląd</h3>
+                <p>
+                    Starszy mężczyzna o łysej głowie, elegancko przystrzyżonych bokobrodach przyprószonych siwizną, o surowym spojrzeniu. Pomimo wieku cieszy się dobrym zdrowiem, a jedyne co się w nim zmieniło w ciągu ostatnich dwudziestu lat to kilka zmarszczek i włosy, które obciął na łyso gdy tylko zaczął siwieć.
+                </p>
+                <h3>Relacje</h3>
+                <p>
+                    Ma trójkę dzieci: <br>
+                        - <br>
+                        - Biskup Larkin Asher<br>
+                        - Percival Asher<br>
+
+                </p>
+                <h3>Plotki</h3>
+                <p>
+                    
+                </p>
+                <h3>Inne</h3>
+                <p>
+                
+                </p>
+            </div>
+            <div class="column">
+                <img width=420px height=650px src="../files/EA.png">
+            </div>
+        </div>
     </div>
 </body>
 </html>
