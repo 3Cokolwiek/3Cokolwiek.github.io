@@ -121,6 +121,10 @@ h1 {
   display: table;
 }
 
+.npc {
+  height: 100%;
+}
+
   /* Gotowce */
 
  /* The switch - the box around the slider */
