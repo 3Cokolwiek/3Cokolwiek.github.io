@@ -41,6 +41,13 @@
     width: 90%;
 }
 
+#mainpage {
+  margin-top: 75px;
+  margin-left: 30px;
+  width: 90%;
+  text-align: center;
+}
+
 .active {
     background-color: rgb(16, 16, 80);
 }
@@ -92,7 +99,11 @@ h1 {
 
 #content a:visited{
     color:blue;
-  }
+}
+
+#mainpage a:visited{
+  color:blue;
+}
 /*
 .characters {
     visibility: hidden;
